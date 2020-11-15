@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{7267B6D8-ADB4-4830-AA03-2B511F5D1966}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{989701B7-A350-4357-BC27-B2E52FBEFB4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Commun", "Commun", "{11BDCF71-3DC6-4D7F-8FF6-C7380A218B7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{9F0C1402-985A-4130-B051-79173C90E4AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Beer", "Beer", "{14A2D9DA-1758-43B8-95E1-916EB8A38253}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{5BA694F1-6942-4028-8A67-10818C341EE5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formation.Blazor.Services.Beer.Domain", "Formation.Blazor.Services.Beer.Domain\Formation.Blazor.Services.Beer.Domain.csproj", "{777F22FE-BDC0-4890-AE76-7A770EB7EF8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formation.Blazor.Services.Beer.Persistence", "Formation.Blazor.Services.Beer.Persistence\Formation.Blazor.Services.Beer.Persistence.csproj", "{4CAD235B-7023-4469-8265-DE1D1E6D7D57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formation.Blazor.Services.Beer.Web", "Formation.Blazor.Services.Beer.Web\Formation.Blazor.Services.Beer.Web.csproj", "{6D9DEC30-B434-4BD6-A7AE-75F657D9B12C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Formation.Blazor.Services.Identity.Web", "Formation.Blazor.Services.Identity.Web\Formation.Blazor.Services.Identity.Web.csproj", "{17A8EADC-47D3-429E-B503-125451F9F463}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Formation.Blazor.UI.Web", "Formation.Blazor.UI.Web\Formation.Blazor.UI.Web.csproj", "{086DB223-4DF0-4793-8A67-0EE603222D7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{777F22FE-BDC0-4890-AE76-7A770EB7EF8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{777F22FE-BDC0-4890-AE76-7A770EB7EF8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{777F22FE-BDC0-4890-AE76-7A770EB7EF8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{777F22FE-BDC0-4890-AE76-7A770EB7EF8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAD235B-7023-4469-8265-DE1D1E6D7D57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAD235B-7023-4469-8265-DE1D1E6D7D57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAD235B-7023-4469-8265-DE1D1E6D7D57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAD235B-7023-4469-8265-DE1D1E6D7D57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D9DEC30-B434-4BD6-A7AE-75F657D9B12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D9DEC30-B434-4BD6-A7AE-75F657D9B12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D9DEC30-B434-4BD6-A7AE-75F657D9B12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D9DEC30-B434-4BD6-A7AE-75F657D9B12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A8EADC-47D3-429E-B503-125451F9F463}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A8EADC-47D3-429E-B503-125451F9F463}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A8EADC-47D3-429E-B503-125451F9F463}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A8EADC-47D3-429E-B503-125451F9F463}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086DB223-4DF0-4793-8A67-0EE603222D7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086DB223-4DF0-4793-8A67-0EE603222D7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086DB223-4DF0-4793-8A67-0EE603222D7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086DB223-4DF0-4793-8A67-0EE603222D7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{14A2D9DA-1758-43B8-95E1-916EB8A38253} = {989701B7-A350-4357-BC27-B2E52FBEFB4B}
+		{5BA694F1-6942-4028-8A67-10818C341EE5} = {989701B7-A350-4357-BC27-B2E52FBEFB4B}
+		{777F22FE-BDC0-4890-AE76-7A770EB7EF8C} = {14A2D9DA-1758-43B8-95E1-916EB8A38253}
+		{4CAD235B-7023-4469-8265-DE1D1E6D7D57} = {14A2D9DA-1758-43B8-95E1-916EB8A38253}
+		{6D9DEC30-B434-4BD6-A7AE-75F657D9B12C} = {14A2D9DA-1758-43B8-95E1-916EB8A38253}
+		{17A8EADC-47D3-429E-B503-125451F9F463} = {5BA694F1-6942-4028-8A67-10818C341EE5}
+		{086DB223-4DF0-4793-8A67-0EE603222D7D} = {7267B6D8-ADB4-4830-AA03-2B511F5D1966}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91EA6545-DF6B-4E88-8E20-666D9C086480}
+	EndGlobalSection
+EndGlobal
